@@ -1,0 +1,34 @@
+h1{
+    margin-left: 650px;
+    font-size: 50px;
+    color: #0090ff;
+}
+form{
+    text-align: center;
+    background: grey;
+    color: white;
+    width: 350px;
+    padding: 25px;
+    margin-left: 550px;
+    border: 4px double black;
+    box-shadow: 5px 10px red;
+}
+form>.form-selection-header{
+    font-weight: bold;
+}
+form>.form-text-inputs{
+    font-size: 24px;
+    background: yellow;
+    color: pink;
+}
+form>#submit{
+    background: green;
+    color: white;
+    border-radius: 30px;
+    width: 270px;
+    height: 40px;
+}
+::placeholder{
+    color: #3498db;
+    text-align: center;
+}

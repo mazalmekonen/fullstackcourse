@@ -2,65 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mazal</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
-
-   </header>
-   <nav>
-       <a href="#">אודות</a>
-       <a href="#">העבודות שלי</a>
-       <a href="#">צור קשר</a>
-   </nav>
-   <main>
-       <div>
-           <h2>אודות</h2>
-           <p> שמי מזל מקונן אני בת 31 
-               גרה ברחובות עם הבן זוג שלי 
-               כרגע עובדת באינטל כטכנאית מחשבים </p>
-       </div>
-       <div>
-           <h2>עבודות</h2>
-           <p>
-               <h3>טקסט</h3>
-               <p>לורם איפסום דולור סיט אמט,
-                קונסקטורר אדיפיסינג אלית לורם איפסום דולור סיט אמט
-                , קונסקטורר
-               </p>
-             <img src="https://i.pinimg.com/originals/00/ee/88/00ee8826ec0de12d7fd2abf362263b5e.jpg" alt="תמונה של טקסט">
-               
-               <h3>לורם</h3>
-               <p>אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה.
-                    דס איאקוליס וולופטה דיאם.
-                     וסטיבולום אט דולור, 
-                </p>
-                <img src="https://abenba121.com/wp-content/uploads/2017/09/E8D7C9D4-6948-40AB-9973-A4780CAFE247-650-000000DC2BB3BB8A.jpeg" alt="תמונה של לורם">
-
-               <h3>איפסום</h3>
-               <p>קראס אגת לקטוס וואל אאוגו 
-                   וסטיבולום סוליסי טידום בעליק. 
-                   ושבעגט ליבם סולגק. בראיט ולחת </p>
-                   <img src="https://indesign.tips/wp-content/uploads/2016/02/tip-017.png" alt="תמונה של איפסום">
-           </p>
-
-       </div>
-       <div>
-           <h2>צרו קשר</h2>
-           <p></p>
-       </div>
-   </main>
-   <footer>
-       <h2>Mazal 2021</h2>
-       <nav>
-           <a href="mailto:mazalmekonen23@gmail.com">My email</a>
-           <a href="tel:+972(54)3912551">My mobile</a>
-           <a href="https://www.linkedin.com/feed/">My linked</a>
-       </nav>
-
-   </footer>
-
+    <h1>Messenger</h1>
+    <form>
+        <p class = "form-selection-header">First Name</p>
+        <input type="text" placeholder="Enter first name" class = "form-text-inputs"/>
+        <p class = "form-selection-header">Last Name</p>
+        <input type="text" placeholder="Enter last name" class = "form-text-inputs"/>
+        <p class = "form-selection-header" >Email</p>
+        <input type="email" placeholder="Enter email" required/>
+        <p class = "form-selection-header">ID</p>
+        <input type="tel" placeholder="Enter ID" pattern="[0-9]{9}"/>
+        <p class = "form-selection-header">sex<p/>
+        <input type="radio" id ="Male" value="Male" name = "sex-type"/>
+        <label for="Male">Male</label>
+        <input type="radio" id ="Female" value="Female" name = "sex-type"/>
+        <label for="Female" >Female</label>
+        <p class = "form-selection-header">Message</p>
+        <input type="text" placeholder="Enter your message" class = "form-text-inputs"/><br/><br/>
+        <input type="submit" value="Submit" id = "submit">
+    </form>
 </body>
 </html>
